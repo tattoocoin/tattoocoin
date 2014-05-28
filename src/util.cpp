@@ -1054,7 +1054,8 @@ boost::filesystem::path GetDefaultDataDir()
     // Unix
     return pathRet / ".tattoocoin";
 #endif
-#endif}
+#endif
+}
 
 const boost::filesystem::path &GetDataDir(bool fNetSpecific)
 {
